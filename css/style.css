@@ -46,6 +46,7 @@ img {
   font-size: 28px;
   background-color: transparent;
   border-bottom: 2px solid white;
+  text-align: center;
 }
 
 #login-form input::placeholder {
@@ -60,6 +61,7 @@ img {
   font-size: 28px;
   background-color: transparent;
   border-bottom: 2px solid white;
+  text-align: center;
 }
 
 #todo-form input::placeholder {
@@ -70,4 +72,16 @@ img {
 #quote {
   margin-top: 50px;
   font-size: 22px;
+}
+
+#todo-list span {
+  color: black;
+  font-size: 18px;
+  font-weight: 900;
+}
+#todo-list button {
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-left: 5px;
 }
